@@ -4,13 +4,13 @@ const usrer = [{ name: "abul", age: 32 }];
 
 const location = [
   { street: "330link road", house: 5 },
-  { country: "uk",
-   city: {
+  { country: "uk", city: {
     center: ' london',
-    center02: 'bristol'
-   } },
+    center02: 'bristol'}},
 ];
 // console.log(location[1].city.center02);
+
+console.log(location[1].city?.center01);
 
 const car = {
   model: "bmw",
